@@ -12,21 +12,20 @@ Before running the test, ensure that you have the following installed on your ma
 ## Setup Instructions
 
 ### 1. Clone the Repository
-git clone https://github.com/AndiWilson/Automation-Challenge-Fetch.git
-cd test/playwright
+`git clone https://github.com/AndiWilson/Automation-Challenge-Fetch.git`
+`cd test/playwright`
 
 ### 2. Install the Required Packages
 Use pip to install Playwright and any other dependencies:
-pip install playwright
+`pip install playwright`
 
 ### 3. Install Playwright Browsers
-playwright install
-
+`playwright install`
 
 ## Running the test
 Once the setup is complete, you can run the test using the following command (BEST UI VIEWING EXPERIENCE)
 
-pytest --browser webkit --headed --slowmo=500
+`pytest --browser webkit --headed --slowmo=500`
 
 This command will:
 
